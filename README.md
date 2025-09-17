@@ -6,7 +6,7 @@ APPNA_Algorithm_Offline.m
 This is  a MATLAB implementation of the APPNA Algorithm for detecting P-wave arrivals from seismic signals in an offline processing mode. The algorithm processes seismic data files (*.dat),  and identifies P-wave onset.
 
 📂 Input & Output
-#Input
+/n Input
 - Folder containing `.dat` files with raw seismic waveform data. For examples see the folder sample input 
 - Each file should be a single-column numeric array.
 #Output
