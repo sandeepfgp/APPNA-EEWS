@@ -1,5 +1,5 @@
 # 📂 Sample Data for APPNA-EEWS
-This folder contains example **raw waveform data** in `.dat` format, which can be used as input for the **APPNA Algorithm for Offline Input** (Automatic P-wave Picker Next-gen Algorithm for Earthquake Early Warning System).
+This folder contains example **raw waveform data** in `.dat` format, which can be used as input for the **APPNA_Algorithm_Offline.m** (Automatic P-wave Picker Next-gen Algorithm for Earthquake Early Warning System).
 
 ## 📌 Data Format
 - Each `.dat` file contains a **single-column numeric array**.
