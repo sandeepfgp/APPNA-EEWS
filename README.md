@@ -7,7 +7,7 @@ This is  a MATLAB implementation of the APPNA Algorithm for detecting P-wave arr
 
 ### 📂 Input & Output
 #### Input
-- Folder containing `.dat` files with raw seismic waveform data. For examples see the folder sample input 
+- Folder containing `.dat` files with raw seismic waveform data. For examples see the folder sample_input 
 - Each file should be a single-column numeric array.
 #### Output
 A summary table saved as `pwave_summary_IQR_Weighted_MAD_RMS.csv`.
