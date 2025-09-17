@@ -10,16 +10,18 @@ This is  a MATLAB implementation of the APPNA Algorithm for detecting P-wave arr
 - Folder containing `.dat` files with raw seismic waveform data. For examples see the folder **sample_waveform** 
 - Each file should be a single-column numeric array.
 #### Output
-- A CSV named **`pwave_summary_IQR_Weighted_MAD_RMS.csv`** saved in `folder_path` with:
-  - `Filename`
-  - `PwaveArrival_iqr` (seconds, NaN if not found)
-  - `Threshold_iqr`
-  - `NoiseLevel`
-  - `Timestamp` (run time)
+1. **Summary CSV**  
+ - File: `pwave_summary_IQR_Weighted_MAD_RMS.csv`  
+ - Columns:  
+   - `Filename` — processed file  
+   - `PwaveArrival_iqr` — detected arrival (seconds, NaN if not found)  
+   - `Threshold_iqr` — adaptive IQR threshold  
+   - `NoiseLevel` — weighted MAD + RMS noise estimate  
+   - `Timestamp` — processing time  
 
-- Per-file diagnostic plots:
-  1) Filtered waveform  
-  2) Envelope + adaptive threshold + picked P arrival
+2. **Diagnostic Plots (per file)**  
+ - **Filtered waveform** with vertical line at detected P-wave  
+ - **Envelope with adaptive threshold** and detected P-wave marker 
   
 ### ⚡ Usage
 1.	Set file path in the script by updating the folder_path variable.
@@ -28,6 +30,8 @@ This is  a MATLAB implementation of the APPNA Algorithm for detecting P-wave arr
 ### 🛠️ Requirements
 - MATLAB R2018a or later
 - Signal Processing Toolbox
+- Statistics and Machine Learning Toolbox
+- Curve Fitting Toolbox
 
 ### 📜 License
 #This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
