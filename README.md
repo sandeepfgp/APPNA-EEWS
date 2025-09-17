@@ -2,7 +2,7 @@
 # APPNA-EEWS
 Automatic P-wave Picker Next-gen Algorithm for Earthquake Early Warning System
 
-## APPNA_Algorithm_Offline.m 
+## APPNA_Algorithm_rec.m 
 This is  a MATLAB implementation of the APPNA Algorithm for detecting P-wave arrivals from seismic signals in an offline processing mode. The algorithm processes seismic data files (*.dat),  and identifies P-wave onset.
 
 ### 📂 Input & Output
